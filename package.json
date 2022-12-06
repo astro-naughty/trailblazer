@@ -1,0 +1,31 @@
+{
+  "name": "trailblazer",
+  "version": "1.0.0",
+  "description": "Typed routing for your express(?) services.",
+  "main": "dist/main.js",
+  "scripts": {
+    "watch": "nodemon src/main.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astro-naughty/trailblazer.git"
+  },
+  "keywords": [
+    "express",
+    "routing",
+    "typed"
+  ],
+  "author": "astro-naughty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astro-naughty/trailblazer/issues"
+  },
+  "homepage": "https://github.com/astro-naughty/trailblazer#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
